@@ -1,4 +1,4 @@
-# JavaSpring - TopMountainsInTheWorld
+TopMountainsInTheWorld
 
 This is a basic Spring CRUD project for learning purpose. 
 - It displays the top mountains info from around the world(sorted by rank field).
