@@ -1,0 +1,54 @@
+CREATE DATABASE  IF NOT EXISTS `mountain`;
+USE `mountain`;
+
+--
+-- Table structure for table `student`
+--
+
+DROP TABLE IF EXISTS `mountains`;
+
+CREATE TABLE `mountains` (
+  `name` varchar(45) NOT NULL,
+  `rank` int(11) NOT NULL, 
+  `known_as` varchar(45) DEFAULT NULL,
+  `location` varchar(45) NOT NULL,
+  `height` varchar(45) NOT NULL,
+  `first_ascent` int(11), 
+  `image_url` varchar(200) DEFAULT NULL,
+
+  PRIMARY KEY (`rank`)
+)
+
+
+
+INSERT INTO mountains (name, rank, known_as, location, height, first_ascent, image_url)
+VALUES ('Mount Everest', 1, 'Sagarmatha or Chomolungma', 'Nepal, China', '8848 m', 1953, 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Mount-Everest.jpg/1024px-Mount-Everest.jpg');
+
+INSERT INTO mountains (name, rank, known_as, location, height, first_ascent, image_url)
+VALUES ('Mount K2', 2, 'Qogir or Godwin Austen', 'Pakistan, China', '8611 m', 1954, 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/K2_2006b.jpg/1024px-K2_2006b.jpg');
+
+INSERT INTO mountains (name, rank, known_as, location, height, first_ascent, image_url)
+VALUES ('Mount Kangchenjunga', 3, '', 'Nepal, India', '8586 m', 1955, 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kanchenjunga_from_Tiger_Hills.JPG/1280px-Kanchenjunga_from_Tiger_Hills.JPG');
+
+INSERT INTO mountains (name, rank, known_as, location, height, first_ascent, image_url)
+VALUES ('Mount Lhotse', 4, '', 'Nepal, China', '8516 m', 1956, 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Lhotse-fromChukhungRi.jpg/1024px-Lhotse-fromChukhungRi.jpg');
+
+INSERT INTO mountains (name, rank, known_as, location, height, first_ascent, image_url)
+VALUES ('Mount Makalu', 5, '', 'Nepal, China', '8485 m', 1955, 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Makalu.jpg/1024px-Makalu.jpg');
+
+INSERT INTO mountains (name, rank, known_as, location, height, first_ascent, image_url)
+VALUES ('Cho Oyu', 6, '', 'Nepal, China', '8188 m', 1954, 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/ChoOyu-fromGokyo.jpg/1024px-ChoOyu-fromGokyo.jpg');
+
+INSERT INTO mountains (name, rank, known_as, location, height, first_ascent, image_url)
+VALUES ('Dhaulagiri I', 7, '', 'Nepal', '8167 m', 1960, 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Dhaulagiri_mountain.jpg/1024px-Dhaulagiri_mountain.jpg');
+
+INSERT INTO mountains (name, rank, known_as, location, height, first_ascent, image_url)
+VALUES ('Manaslu', 8, '', 'Nepal', '8163 m', 1956, 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Sunrise%2C_Manaslu.jpg/1024px-Sunrise%2C_Manaslu.jpg');
+
+INSERT INTO mountains (name, rank, known_as, location, height, first_ascent, image_url)
+VALUES ('Nanga Parbat', 9, '', 'Pakistan', '8126 m', 1953, 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Nanga_Parbat_The_Killer_Mountain.jpg/800px-Nanga_Parbat_The_Killer_Mountain.jpg');
+
+INSERT INTO mountains (name, rank, known_as, location, height, first_ascent, image_url)
+VALUES ('Annapurna I', 10, '', 'Nepal', '8091 m', 1950, 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Annapurna_I_ABC_Morning.jpg/1024px-Annapurna_I_ABC_Morning.jpg');
+
+
