@@ -29,6 +29,9 @@
 		
 		
 		<form:form action="saveMountain" method="POST" modelAttribute="mountain">
+			<!-- need to associate this data with customer id -->
+			<form:hidden path="rank"/>
+			
 			<table>
 				<tbody>
 					<tr>
